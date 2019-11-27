@@ -1,0 +1,121 @@
+.header {
+    background: #040404;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 40px;
+    z-index: 100;
+
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    max-height: 33px;
+
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.navigation a {
+    font-weight:500 ;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px 0;
+    color:#00c1ff;
+}
+
+.navigation li {
+    margin-left: 84px;
+}
+
+.navigation li:first-child {
+    margin-left: 0;
+}
+
+.nav-mobile {
+    display: none;
+}
+.nav-mobile{display: none;}
+.nav-mobile ul{
+    padding: 0;
+    position: absolute;
+    top: 33px;
+    right: -320px;
+    background: #d4d4d2;
+    padding:10px;
+    margin: 0;
+    width: 300px;
+    -webkit-transition: right 0.6s ease;
+    -moz-transition: right 0.6s ease;
+    -o-transition: right 0.6s ease;
+    transition: right 0.6s ease;
+}
+.nav-mobile ul li a{
+    color:#65a9d8;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.nav-mobile ul li a:hover{color:#65a9d8;}
+.is-open .nav-mobile ul{
+    right: 0;
+    display: block;
+}
+.nav-mobile .nav-toggle{
+    display: block;
+    border-bottom: 17px double #66aada; 
+    border-top: 6px solid #66aada; 
+    content:"";
+    margin: 3px;
+    height: 28px; 
+    width: 30px;
+}
+@media (max-width: 904px) {
+    .navigation li {
+
+        margin-left:30px;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .nav-mobile {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 468px) {
+    .header {
+        
+        top: 20px;
+       
+    }
+}
+
+

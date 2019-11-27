@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font: 400 19px/1 'Raleway', Arial, Tahoma, sans-serif;
+    color: #00c0ff;
+    /*font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;*/
+}
+.container {
+    max-width: 1190px;
+    padding: 0 15px;
+    margin: 0 auto;
+  
+}
+a, .link {
+    text-decoration: none;
+
+}
+
+a:hover, .link:hover {
+    color: #96ddf5;
+    text-decoration: none;
+}
+
+
+h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0 0 32px;
+}
+h2, h3{
+
+}
+h3{margin: 0 0 35px;}
+
+* + h1, * + h2, * + h3,* + h4,* + h5,* + h6 {
+    margin:0.67em 0 0 0;
+}
+
+p, ul, ol {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ul,
+ol > li > ol {
+    margin: 0;
+
+}
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto ;
+}
+@media (max-width: 320px){
+   body {
+    font: 400 14px/1.5 Arial, Tahoma, Verdana, sans-serif;
+   }
+
+}
+

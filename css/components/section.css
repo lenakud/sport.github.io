@@ -1,0 +1,153 @@
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+.button {
+    display: inline-flex;
+    padding: 10px 60px;
+    height: 46px;
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255, .8);
+    text-transform: uppercase;
+    font-size: 21px;
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+    font-weight: 400;
+
+
+}
+
+.button-lg {
+    font-size: 25px;
+    height: 55px;
+}
+
+.main-section {
+    text-align: center;
+    padding: 306px 0;
+    background: repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section img {
+    margin: 0 0 52px;
+}
+
+.main-section p {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.25;
+    max-width: 800px;
+    margin: 20px auto 100px;
+}
+
+.black-bg {
+    background: black;
+}
+
+.section {
+    padding: 160px 0 155px;
+}
+
+.section-center .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.title-29 {
+    font-weight: 800;
+    font-size: 29px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 0 40px;
+}
+
+.section-who-we-are p {
+    max-width: 900px;
+    line-height: 1.75;
+}
+
+@media (max-width: 1048px) {
+    .button {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 898px) {
+    .button {
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 860px) {
+    .button {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+}
+
+@media (max-width: 816px) {
+    .button {
+        font-size: 12px;
+        font-weight: 700;
+        height: 36px;
+        width: 20%;
+        padding: 10px 20px;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .button {
+        font-size: 12px;
+        font-weight: 700;
+        height: 40px;
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width: 468px) {
+    .button {
+        font-size: 12px;
+        font-weight: 700;
+        height: 45px;
+        padding: 5px;
+        width: 25%;
+    }
+    .main-section {
+        background-position: center;
+        background-attachment: fixed;
+       
+    }
+
+}
+
+@media (max-width: 341px) {
+    .button {
+        font-size: 10px;
+        font-weight: 700;
+        height: 40px;
+        padding: 5px;
+    }
+    
+}
