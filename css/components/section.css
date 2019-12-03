@@ -20,6 +20,10 @@
     font-size: 21px;
     font-family: Roboto, Arial, Tahoma, sans-serif;
     font-weight: 400;
+    background-color:#ffffff;
+    font-family: "Roboto";
+    color: rgb( 0, 193, 255 );
+    text-align: center;
 
 
 }
@@ -40,6 +44,8 @@
 .but {
     display: flex;
     justify-content: center;
+   
+         
 }
 
 .main-section img {
@@ -79,18 +85,321 @@
     margin: 0 0 40px;
 }
 
+
 .section-who-we-are p {
     max-width: 900px;
     line-height: 1.75;
 }
 
+
+.section-darkgrey {
+    background: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 70px;
+    
+}
+
+.section-grey-wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.grey-description {
+    margin-right: 150px;
+}
+
+.grey-description:last-child {
+    margin-right: 0;
+}
+
+.h4 {
+        font-size: 18px;
+        font-family: Myriad Pro, Arial, Tahoma, san-serif;
+        color: rgb( 255, 255, 255 );
+        text-transform: uppercase;
+        line-height: 1.778;
+        text-align: left;
+        
+      }
+      
+  .section-text {
+        font-size: 16px;
+        color: rgb( 255, 255, 255 );
+        font-family: Myriad Pro, Arial, Tahoma, san-serif;
+        line-height: 1.5;
+        text-align: left;
+      
+      }
+      
+
+      .section-priorities {
+        text-align: center;
+        padding: 50px 10px;
+        background: repeat;
+        background-size: cover;
+        background-position: 50%;
+      }
+
+      .section-priorities p {
+        max-width: 890px;
+        line-height: 1.75;
+        margin: 0 auto;
+        
+    }
+
+    .section-pririties-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+       max-width: 380px;
+       opacity: 0.8;
+       background: #1c1c1c;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 20px 60px;
+       margin: 40px;
+
+    }
+
+    .card-desc {
+        max-width:140px;
+        
+    }
+
+    .section-two p {
+        max-width: 780px;
+        line-height: 1.75;
+        text-align: center;
+    }
+
+    .name {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .section-top {
+       text-align: center;
+       margin-top:20px;
+       
+    }
+    .section-top p {
+        max-width: 800px;
+        line-height: 1.75;
+        margin: 0 auto;
+    }
+
+    .navigation-exectly {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+    .navigation-exectly ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .navigation-exectly li {
+        margin-right: 46px;
+        margin-top: 100px;
+    }
+
+    .navigation-exectly a {
+            font-size: 16px;
+            color:#00c1ff;
+           
+          }
+          
+    .navigation-exectly a:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+    }
+    .exectly-middle{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .exectly-card img {
+        max-height: 100px;
+        margin-bottom: 40px;
+        margin-left: 30px;
+        
+    }
+
+    .exectly-card {
+        max-width: 140px;
+    }
+    .exectly-card p {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .exectly-card h4 {
+        text-align: center;
+    }
+
+    .sport {
+        font-size: 22px;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        text-align: center;
+        
+    }
+    .h2 {
+            font-size: 35px;
+            text-transform: uppercase;
+            text-align: left;
+            margin-left: 20px;
+           
+    }
+     .section-nature {
+         padding: 0;
+         background: #000000;
+       
+        
+     }
+     
+    .col-50 {
+        width: 50%;
+       
+    }
+    
+
+    .nature-text {
+        margin-bottom: 170px;
+    }
+    .wrapper-black p {
+       max-width: 520px;
+       text-align: left;
+       margin-left: 20px;
+       line-height: 1.6;
+       
+    }
+
+    
+    .wrapper-black {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        
+    }
+
+    .your-tickets-section {
+       
+        padding: 200px 0;
+        background: repeat;
+        background-size: cover;
+        background-position: 30%;
+        
+    }
+    .title-40 {
+        font-size: 40px;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-family: "Roboto";
+        font-weight: 700;
+        line-height: 0.85;
+        text-align: right;
+    }
+      .your-tickets-desc {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        
+      } 
+
+      .your-tickets-desc p {
+          width: 300px;
+          text-align: right;
+          margin-top: -25px;
+        
+         
+      }
+              
+    .your-tickets-desc h5 {
+        width: 300px;
+        margin-top: -30px;
+    }
+    .button-sm {
+       margin-left: auto;
+       margin-top: 20px;
+       font-size: 16px;
+       height: 45px;
+    }
+
+    .text-bold {
+        font-weight: 500;
+    }
+    .grey-trips {
+        margin-right: 250px;
+    }
+    
+    .grey-trips:last-child {
+        margin-right: 0;
+    }
+    
+   
 @media (max-width: 1048px) {
     .button {
         font-size: 18px;
     }
 
 }
+@media (max-width: 963px) {
+    .section-priorities {
+        
+    padding: 306px 0;
+    background: repeat;
+    background-size: cover;
+    background-position: 70%;
+}
+    }
 
+@media (max-width: 960px) {
+
+  .grey-description h4 {
+      font-size: 16px;
+  }
+
+  .grey-description {
+      margin-left: 10px;
+  }
+}
+
+@media (max-width: 931px) {
+
+    .grey-description h4 {
+        font-size: 14px;
+    }
+  .section-priorities .container {
+      margin-top: -150px;
+      
+  }
+  .section-priorities {
+   padding: 200px 0;
+}
+  }
+  @media (max-width: 841px) {
+    .grey-description h4 {
+        font-size: 12px;
+    }
+  .grey-trips {
+      margin-right: 100px;
+  }
+  }
+  
 @media (max-width: 898px) {
     .button {
         font-size: 16px;
@@ -115,7 +424,73 @@
     }
 
 }
+@media (max-width: 793px) {
+    .grey-description {
+        margin-right: 80px;
+    }
 
+    .grey-description:last-child {
+        margin-right: 10px;
+    }
+
+    .section-what-exectly .container {
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+
+    .wrapper-black h2 {
+        font-size: 26px;
+    }
+
+    .button-sm {
+        height: 30px;
+        padding: 20px 40px;
+    }
+}
+@media (max-width: 743px) {
+    .wrapper-black p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 709px) {
+   .card-desc {
+       max-width: 120px;
+   }
+
+}
+
+@media (max-width: 667px) {
+    .card-desc {
+        max-width: 250px;
+        
+    }
+   .card {
+       padding: 20px 40px;
+       width: 100%;
+   }
+    .section-priorities {
+        padding: 150px 0;;
+    }
+
+    .section-priorities h3 {
+        margin-top: 20px;
+    }
+
+    .nature-image img {
+        height: 342.16px;
+ 
+ }
+
+ @media (max-width: 631px) {
+    .grey-description h4 {
+        font-size: 10px;
+    }
+    .grey-description p {
+        font-size: 13px;
+        font-weight: 700;
+    }
 @media (max-width: 570px) {
     .button {
         font-size: 12px;
@@ -150,4 +525,71 @@
         padding: 5px;
     }
     
+}
+
+@media (max-width: 320px) {
+   .section-grey-wrapper {
+       display: block;
+   }
+
+   .grey-description {
+       width: 100%;
+   }
+
+   .grey-description h4 {
+       font-size: 20px;
+   }
+.grey-description p {
+    font-weight: 400;
+}
+   .section-darkgrey {
+       padding: 20px 0;
+   }
+
+   .section-priorities {
+       display: block;
+   }
+
+   .card-desc p {
+       line-height: 1.5;
+   }
+
+   .section-what-exectly {
+       padding: 100px 0;
+       display: block;
+   }
+
+   .navigation-exectly ul {
+       display: block;
+       
+   }
+
+   .navigation-exectly li {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    margin-right: auto;
+    
+}
+.navigation-exectly li:first-child {
+    margin-top: 30px;
+}
+
+.exectly-middle {
+    display: block;
+}
+
+.exectly-card {
+    max-width: 100%;
+   
+}
+.exectly-card img {
+    max-height: 160px;
+    margin-left: 105px;
+   
+}
+
+.exectly-card p {
+    margin-bottom: 30px;
+}
 }
